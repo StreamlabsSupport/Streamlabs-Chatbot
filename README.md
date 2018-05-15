@@ -30,7 +30,7 @@ You most likely connected the bot to the wrong channel.
 > Preview working but not commands
 - `Only play Sound Files when stream is live` is checked in `Commands tab` -> `settings`
 - Global sound file user cooldown is in minutes `commands tab` -> `settings` Restart the Chatbot to clear cooldowns
-- 
+- Numbers of votes set is too high, the bot doesn't announce each vote
 
 ## Bot crashes / doesn't launch
 Most likely you don't have microsoft `visual c++ redistributables 2013` installed, note that both `x64` and `x86` needs to be installed. If you have both installed you can still visit [this link](https://www.microsoft.com/en-us/download/details.aspx?id=40784) to download and repair them both. If you need a step to step tutorial for this you can find that [here](https://support.streamlabs.com/hc/en-us/articles/115004407613-Repair-C-Redistributables-2013-x86-and-x64).  
@@ -42,6 +42,11 @@ Most likely you don't have microsoft `visual c++ redistributables 2013` installe
 > If all else failed it might be MSI afterburner  
 
 - First check if the bot does launch with MSI turned off (If it does not it is a different problem and this solution is not for you) With the bot closed and afterburner open, go into afterburner `settings` > `User Interface` and make sure `Single tray icon mode` is `OFF`. Then go to your tray, right click `RivaTunerStatisticsServer`, and click `show`.  Click `Add`, then find the Streamlabs `Chatbot.exe`.  Making sure the Streamlabs Chatbot profile is selected, turn Application Detection Level to None.  Open the chatbot and it should work fine now.
+
+## Missing tabs
+There are two tabs that can be hidden in the chatbot.
+- `Discord tab` is hidden for YouTube and Mixer since they do not support discord integration
+- `Scripts tab` is hidden until you connect streamer and bot account under `connections` to the streamer's channel
 
 ## Minigames aren't working
 Minigames require you to enable currency before they can be used, this still applies even if the cost is 0.
