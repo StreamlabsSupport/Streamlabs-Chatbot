@@ -80,6 +80,20 @@ Minigames require you to enable currency before they can be used, this still app
 
 If minigames still aren't working make sure that `settings` -> `usage` -> `minigames` are set to match where you try to use them. Minigames can only be either discord or stream chat and not both.
 
+## Bot size is huge/tiny on one more multiple monitors
+right click the chatbot shortcut -> go to the `compability tab` -> change `scaling option` to system "Override high DPI scaling behavior. Scaling performed by:" -> select `system`.
+If your shortcut is in the task bar you have to `right click` the icon -> `right click` where it says "Streamlabs Chatbot" and then you go to the compability tab. [Example](https://i.gyazo.com/e445bedb5389fee195c6137448866a43.gif)  
+
+
+## Notifications aren't working
+Click the :bust_in_silhouette: in the bottom left corner of the bot and go to `streamlabs` 
+> If you aren't connected you can skip directly to step 2
+1. Disconnect from streamlabs
+2. Generate token
+3. Connect to streamlabs  
+
+> Note that you also need to have any widget open. Alert box/event list/ chat box/streamlabels/ Streamlabs OBS
+
 ## Can't generate token  
 
 This is due to a connection issue between the bot and the site it needs to generate the token. 
