@@ -1,7 +1,7 @@
 # Streamlabs-Chatbot
 [Dowload Chatbot](https://www.streamlabs.com/chatbot)  
 [Chatbot Discord](https://discordapp.com/invite/J4QMG5m)  
-[Changelog](https://streamlabs.com/chatbot-changelog)  
+[Changelog](https://streamlabs.com/changelog?filter=Streamlabs%20Chatbot)  
 [Suggest new Features](https://ideas.streamlabs.com)  
 [Streamlabs Website](https://www.streamlabs.com)  
   
