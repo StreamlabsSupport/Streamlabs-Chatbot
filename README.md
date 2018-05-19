@@ -48,6 +48,23 @@ There are two tabs that can be hidden in the chatbot.
 - `Discord tab` is hidden for YouTube and Mixer since they do not support discord integration
 - `Scripts tab` is hidden until you connect streamer and bot account under `connections` to the streamer's channel
 
+## Scripts not loading
+There are no default scripts with the bot currently so in order for them to install they must have been imported manually. 
+> Importing scripts
+1. Download a .zip file containging the script (preferably from chatbot discord)
+2. Go into the scripts tab and press `import` in the top right corner
+3. Select the .zip file you downloaded in `step 1`
+4. Hit `open` and after a short time it should pop up a message confirming that it was a successful import. 
+
+When troubleshooting scripts your best help is the error view. You can find it in the top right corner of the scripts tab. 
+> Troubleshooting scripts
+- No module named `os` / `json`
+  - Make sure [python 2.7.13](https://www.python.org/downloads/release/python-2713/)  x86 is installed. Don't use newer versions of python or x64
+  - Make sure the lib folder path found in `scripts tab` -> `settings` leads to the lib folder located inside the python folder that was created when installing python. 
+- Unexpected token `from` / `:`
+  - Make sure you installed [python 2.7.13](https://www.python.org/downloads/release/python-2713/) x86 and NOT python 3.X
+
+
 ## Minigames aren't working
 Minigames require you to enable currency before they can be used, this still applies even if the cost is 0.
 > Heist  
@@ -80,7 +97,7 @@ Minigames require you to enable currency before they can be used, this still app
 
 If minigames still aren't working make sure that `settings` -> `usage` -> `minigames` are set to match where you try to use them. Minigames can only be either discord or stream chat and not both.
 
-## Bot size is huge/tiny on one more multiple monitors
+## Bot size is huge/tiny on one or multiple monitors
 right click the chatbot shortcut -> go to the `compability tab` -> change `scaling option` to system "Override high DPI scaling behavior. Scaling performed by:" -> select `system`.
 If your shortcut is in the task bar you have to `right click` the icon -> `right click` where it says "Streamlabs Chatbot" and then you go to the compability tab. [Example](https://i.gyazo.com/e445bedb5389fee195c6137448866a43.gif)  
 
