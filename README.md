@@ -9,27 +9,27 @@ Documentation:
 [Twitch](https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf) | [YouTube](https://cdn.streamlabs.com/chatbot/Documentation_Youtube.pdf) | [Mixer](https://cdn.streamlabs.com/chatbot/Documentation_Mixer.pdf)  
 ## Messages show in console/chatbot but not stream chat   
 You most likely connected the bot to the wrong channel.  
-1. Go to connections (the human silhuette in the bottom left corner of the bot)  
+1. Go to connections :bust_in_silhouette: 
 2. Go into bot connection (mixer or twitch bot)  
 3. Make sure Streamer Channel is the same as your actual stream name  
 
 ## Songrequest by artist/name
-- To enable this feature go into the `Songrequest` tab in the bot then press the `gear icon` in the top right corner and change `mode` from `$id` to either of the two other options
+- To enable this feature go into the `Songrequest` tab in the bot then press the :gear: in the top right corner and change `mode` from `$id` to either of the two other options
 
 ## Songrequests on Spotify is playing random songs after the first one
 - You can disable this in Spotify under `edit` -> `preferences` -> `Advanced settings` -> `Autoplay` -> `Autoplay similar songs when your music ends` 
 
 ## SFX aren't playing  
 > If preview works you can skip these
-- Wrong `audio output` is selected in `settings` -> `general`  
-- `audio enging` is set to waveout in `settings` -> `general`  
+- Wrong `audio output` is selected in `settings` :gear: -> `general`  
+- `audio enging` is set to waveout in `settings` :gear: -> `general`  
 - File/filepath doesn't exist
 - Soundfile format isn't supported (.mp3 only)
 - The Chatbot is muted in windows audio mixer
 
 > Preview working but not commands
-- `Only play Sound Files when stream is live` is checked in `Commands tab` -> `settings`
-- Global sound file user cooldown is in minutes `commands tab` -> `settings` Restart the Chatbot to clear cooldowns
+- `Only play Sound Files when stream is live` is checked in `Commands tab` -> `settings` :gear:
+- Global sound file user cooldown is in minutes `commands tab` -> `settings` :gear: Restart the Chatbot to clear cooldowns
 - Numbers of votes set is too high, the bot doesn't announce each vote
 
 ## Bot crashes / doesn't launch
@@ -41,12 +41,13 @@ Most likely you don't have microsoft `visual c++ redistributables 2013` installe
 
 > If all else failed it might be MSI afterburner  
 
-- First check if the bot does launch with MSI turned off (If it does not it is a different problem and this solution is not for you) With the bot closed and afterburner open, go into afterburner `settings` > `User Interface` and make sure `Single tray icon mode` is `OFF`. Then go to your tray, right click `RivaTunerStatisticsServer`, and click `show`.  Click `Add`, then find the Streamlabs `Chatbot.exe`.  Making sure the Streamlabs Chatbot profile is selected, turn Application Detection Level to None.  Open the chatbot and it should work fine now.
+- First check if the bot does launch with MSI turned off (If it does not it is a different problem and this solution is not for you) With the bot closed and afterburner open, go into afterburner `settings` -> `User Interface` and make sure `Single tray icon mode` is `OFF`. Then go to your tray, right click `RivaTunerStatisticsServer`, and click `show`.  Click `Add`, then find the Streamlabs `Chatbot.exe`.  Making sure the Streamlabs Chatbot profile is selected, turn Application Detection Level to None.  Open the chatbot and it should work fine now.
 
 ## Missing tabs
-There are two tabs that can be hidden in the chatbot.
+There are three tabs that can be hidden in the chatbot.
 - `Discord tab` is hidden for YouTube and Mixer since they do not support discord integration
 - `Scripts tab` is hidden until you connect streamer and bot account under `connections` to the streamer's channel
+- `Subscribers tab` is hidden for YouTube and Mixer
 
 ## Scripts not loading
 There are no default scripts with the bot currently so in order for them to install they must have been imported manually. 
@@ -60,7 +61,7 @@ When troubleshooting scripts your best help is the error view. You can find it i
 > Troubleshooting scripts
 - No module named `os` / `json`
   - Make sure [python 2.7.13](https://www.python.org/downloads/release/python-2713/)  x86 is installed. Don't use newer versions of python or x64
-  - Make sure the lib folder path found in `scripts tab` -> `settings` leads to the lib folder located inside the python folder that was created when installing python. 
+  - Make sure the lib folder path found in `scripts tab` -> `settings` :gear: leads to the lib folder located inside the python folder that was created when installing python. 
 - Unexpected token `from` / `:`
   - Make sure you installed [python 2.7.13](https://www.python.org/downloads/release/python-2713/) x86 and NOT python 3.X
 
@@ -95,7 +96,7 @@ Minigames require you to enable currency before they can be used, this still app
 - Start delay needs to be at least 1 to give users the time to join in
 - When the timer runs out the needs to be a boss that got the interval as the amount of praticipants. If no boss is found for the group size it gets cancelled.  
 
-If minigames still aren't working make sure that `settings` -> `usage` -> `minigames` are set to match where you try to use them. Minigames can only be either discord or stream chat and not both.
+If minigames still aren't working make sure that `settings` :gear: -> `usage` -> `minigames` are set to match where you try to use them. Minigames can only be either discord or stream chat and not both.
 
 ## Bot size is huge/tiny on one or multiple monitors
 right click the chatbot shortcut -> go to the `compability tab` -> change `scaling option` to system "Override high DPI scaling behavior. Scaling performed by:" -> select `system`.
