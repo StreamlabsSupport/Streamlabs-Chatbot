@@ -115,12 +115,13 @@ If your shortcut is in the task bar you have to `right click` the icon -> `right
 
 ## Notifications aren't working
 Click the :bust_in_silhouette: in the bottom left corner of the bot and go to `streamlabs` 
-> If you aren't connected you can skip directly to step 2
 1. Disconnect from streamlabs
-2. Generate token
+2. Generate token (make sure it's using the streamer account)
 3. Connect to streamlabs  
 
 > Note that you also need to have any widget open. Alert box/event list/ chat box/streamlabels/ Streamlabs OBS
+
+
 
 ## Can't generate token  
 
