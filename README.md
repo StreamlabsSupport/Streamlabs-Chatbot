@@ -19,6 +19,25 @@ You most likely connected the bot to the wrong channel.
 ## Songrequests on Spotify is playing random songs after the first one
 - You can disable this in Spotify under `edit` -> `preferences` -> `Advanced settings` -> `Autoplay` -> `Autoplay similar songs when your music ends` 
 
+## Songrequests not responding in chat/ Songrequest stuck on track
+Songrequests not responding could be a few possible reasons, please check the following reasons first.
+1. Songrequests are disabled in the songrequest tab (top left corner)
+2. Songrequests have a cost that's higher than the users current currencyamount
+3. Songrequests are set to work in discord/whispers only. `settings` :gear: -> `usage` -> `songrequests`
+
+If none of the options above explained your issue you can try resetting songqueue and songrequest settings by following these steps:
+
+1. press the `?` in the bot's top right corner
+2. press `open install directory` 
+3. close the bot 
+4. go into `services` folder 
+5. go into `twitch` folder (replace with youtube or mixer if you stream there)
+6. go into `settings` folder 
+7. delete `SongQueue.bin` and `songrequestsettings.bin` 
+8. start up the bot
+9. Enable songrequests
+
+
 ## SFX aren't playing  
 > If preview works you can skip these
 - Wrong `audio output` is selected in `settings` :gear: -> `general`  
