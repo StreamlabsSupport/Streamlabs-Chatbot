@@ -7,6 +7,22 @@
   
 Documentation:  
 [Twitch](https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf) | [YouTube](https://cdn.streamlabs.com/chatbot/Documentation_Youtube.pdf) | [Mixer](https://cdn.streamlabs.com/chatbot/Documentation_Mixer.pdf)  
+
+## Listed issues with known fixes
+- [Messages show in console/chatbot but not stream chat](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#messages-show-in-consolechatbot-but-not-stream-chat)
+- [Songrequest by artist/name](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequest-by-artistname)
+- [Songrequests on Spotify is playing random songs after the first one](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-on-spotify-is-playing-random-songs-after-the-first-one)
+- [Songrequests not responding in chat/ Songrequest stuck on track](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-not-responding-in-chat-songrequest-stuck-on-track)
+- [SFX aren't playing](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#sfx-arent-playing)
+- [Bot crashes / doesn't launch](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-crashes--doesnt-launch)
+- [Missing tabs](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#missing-tabs)
+- [Scripts not loading](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#scripts-not-loading)
+- [Minigames aren't working](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#minigames-arent-working)
+- [Bot size is huge/tiny on one or multiple monitors](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-size-is-hugetiny-on-one-or-multiple-monitors)
+- [Notifications aren't working](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#notifications-arent-working)
+- [Can't update game/tile through dashboard or command]()
+- [Can't generate token ](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#cant-generate-token)
+
 ## Messages show in console/chatbot but not stream chat   
 You most likely connected the bot to the wrong channel.  
 1. Go to connections :bust_in_silhouette: 
@@ -140,7 +156,10 @@ Click the :bust_in_silhouette: in the bottom left corner of the bot and go to `s
 
 > Note that you also need to have any widget open. Alert box/event list/ chat box/streamlabels/ Streamlabs OBS
 
+## Can't update game/tile through dashboard or command
 
+Your twitch token for the streamer account expired. Please generate a new one
+`connections` :bust_in_silhouette: -> `twitch streamer` -> `disconnect` -> `generate token` -> `connect`
 
 ## Can't generate token  
 
