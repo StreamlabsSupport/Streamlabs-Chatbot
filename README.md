@@ -38,7 +38,7 @@ Most likely one of the following settings was overlooked.
 - `Permission` & `Info` 
 
 YouTube only - last resort/possible reason.
-> Timestamps in the bot doesn't match the timestamps sent from youtube to the bot, so the bot doesn't recognize new messages to respond to. To ensure this isn't the issue simply enable [Automatic Time & Date](). 
+> Timestamps in the bot doesn't match the timestamps sent from youtube to the bot, so the bot doesn't recognize new messages to respond to. To ensure this isn't the issue simply enable "Set timee automatically" and make sure the correct Time zone is selected, how to find these settings is explained [here](https://www.computerhope.com/issues/ch000554.htm). 
 
 
 ## Songrequest by artist/name
