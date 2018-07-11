@@ -33,7 +33,7 @@ You most likely connected the bot to the wrong channel.
 ## Bot can send messages but isn't responding to commands
 
 Most likely one of the following settings was overlooked.
-- `Usage` make sure it's set to the chat that's being used. Twitch Whisper means you have to whisper the command
+- `Usage` make sure it's set to the chat that's being used. Stream Whisper means you have to whisper the command
 - `Cost` if the cost is set to anything higher than 0 currency must be enabled and user need enough points
 - `Cooldown` Broadcaster ignore cooldowns but nobody else does, restarting the bot will clear all cooldowns
 - `Permission` & `Info` 
