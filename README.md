@@ -8,7 +8,7 @@
 Documentation:  
 [Twitch](https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf) | [YouTube](https://cdn.streamlabs.com/chatbot/Documentation_Youtube.pdf) | [Mixer](https://cdn.streamlabs.com/chatbot/Documentation_Mixer.pdf)  
 
-## Listed issues with known fixes
+## List of issues with known fixes
 - [Messages show in console/chatbot but not stream chat](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#messages-show-in-consolechatbot-but-not-stream-chat)
 - [Songrequest by artist/name](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequest-by-artistname)
 - [Songrequests on Spotify is playing random songs after the first one](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-on-spotify-is-playing-random-songs-after-the-first-one)
@@ -28,6 +28,18 @@ You most likely connected the bot to the wrong channel.
 1. Go to connections :bust_in_silhouette: 
 2. Go into bot connection (mixer or twitch bot)  
 3. Make sure Streamer Channel is the same as your actual stream name  
+
+## Bot can send messages but isn't responding to commands
+
+Most likely one of the following settings was overlooked.
+- `Usage` make sure it's set to the chat that's being used. Twitch Whisper means you have to whisper the command
+- `Cost` if the cost is set to anything higher than 0 currency must be enabled and user need enough points
+- `Cooldown` Broadcaster ignore cooldowns but nobody else does, restarting the bot will clear all cooldowns
+- `Permission` & `Info` 
+
+YouTube only - last resort/possible reason.
+> Timestamps in the bot doesn't match the timestamps sent from youtube to the bot, so the bot doesn't recognize new messages to respond to. To ensure this isn't the issue simply enable [Automatic Time & Date](). 
+
 
 ## Songrequest by artist/name
 - To enable this feature go into the `Songrequest` tab in the bot then press the :gear: in the top right corner and change `mode` from `$id` to either of the two other options
