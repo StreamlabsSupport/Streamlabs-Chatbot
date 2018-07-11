@@ -70,7 +70,7 @@ If none of the options above explained your issue you can try resetting songqueu
 ## SFX aren't playing  
 > If preview works you can skip these
 - Wrong `audio output` is selected in `settings` :gear: -> `general`  
-- `audio enging` is set to waveout in `settings` :gear: -> `general`  
+- `audio engine` is set to waveout in `settings` :gear: -> `general`  
 - File/filepath doesn't exist
 - Soundfile format isn't supported (.mp3 only)
 - The Chatbot is muted in windows audio mixer
