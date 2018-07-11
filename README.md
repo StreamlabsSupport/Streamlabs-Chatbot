@@ -70,14 +70,14 @@ If none of the options above explained your issue you can try resetting songqueu
 ## SFX aren't playing  
 > If preview works you can skip these
 - Wrong `audio output` is selected in `settings` :gear: -> `general`  
-- `audio engine` is set to waveout in `settings` :gear: -> `general`  
+- Wrong `audio engine` is selected in `settings` :gear: -> `general`. 99% of all users should use Wasapi 
 - File/filepath doesn't exist
 - Soundfile format isn't supported (.mp3 only)
 - The Chatbot is muted in windows audio mixer
 
 > Preview working but not commands
 - `Only play Sound Files when stream is live` is checked in `Commands tab` -> `settings` :gear:
-- Global sound file user cooldown is in minutes `commands tab` -> `settings` :gear: Restart the Chatbot to clear cooldowns
+- Sound file commands are on global user cooldown. This setting is in `commands tab` -> `settings` :gear:. Restart the Chatbot to clear cooldowns
 - Numbers of votes set is too high, the bot doesn't announce each vote
 
 ## Bot crashes / doesn't launch
