@@ -41,6 +41,17 @@ Most likely one of the following settings was overlooked.
 YouTube only - last resort/possible reason.
 > Timestamps in the bot doesn't match the timestamps sent from youtube to the bot, so the bot doesn't recognize new messages to respond to. To ensure this isn't the issue simply enable "Set timee automatically" and make sure the correct Time zone is selected, how to find these settings is explained [here](https://www.computerhope.com/issues/ch000554.htm). 
 
+## Timers not posting
+In order for timers to be working the following events must have occured
+
+- Stream must be live or timers won't post
+- The bot must be connected to Streamlabs
+- Bot must show `Stream: online`  at the top
+- Minimum new chat lines must have been reached
+- Interval (min) must have been reached
+
+If the timer still doesn't work it is due to a faulty $parameter inside the timer. Parameters that is a username ($userid, $targetid etc.) or requires an input ($msg, $arg1, $num1 etc.) will cause the time to not show. 
+
 
 ## Songrequest by artist/name
 - To enable this feature go into the `Songrequest` tab in the bot then press the :gear: in the top right corner and change `mode` from `$id` to either of the two other options
