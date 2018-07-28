@@ -13,7 +13,6 @@ Documentation:
 - [Bot can send messages but isn't responding to commands](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#bot-can-send-messages-but-isnt-responding-to-commands)
 - [Timers not posting](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#timers-not-posting)
 - [Songrequest by artist/name](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequest-by-artistname)
-- [Songrequests on Spotify is playing random songs after the first one](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-on-spotify-is-playing-random-songs-after-the-first-one)
 - [Songrequests not responding in chat/ Songrequest stuck on track](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-not-responding-in-chat-songrequest-stuck-on-track)
 - [SFX aren't playing](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#sfx-arent-playing)
 - [Bot crashes / doesn't launch](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-crashes--doesnt-launch)
@@ -57,8 +56,6 @@ If the timer still doesn't work it is due to a faulty $parameter inside the time
 ## Songrequest by artist/name
 - To enable this feature go into the `Songrequest` tab in the bot then press the :gear: in the top right corner and change `mode` from `$id` to either of the two other options
 
-## Songrequests on Spotify is playing random songs after the first one
-- You can disable this in Spotify under `edit` -> `preferences` -> `Advanced settings` -> `Autoplay` -> `Autoplay similar songs when your music ends` 
 
 ## Songrequests not responding in chat/ Songrequest stuck on track
 Songrequests not responding could be a few possible reasons, please check the following reasons first.
@@ -197,6 +194,5 @@ This is due to a connection issue between the bot and the site it needs to gener
 If nothing else work you can manually generate some tokens through these links  
 [Twitch Bot Token](https://api.twitch.tv/kraken/oauth2/authorize?response_type=token&client_id=dve7ifeawf0xeegigqamnvqy9qqm2y&redirect_uri=https%3A%2F%2Fstreamlabs.com%2Fchatbot-auth%3Fservice%3Dtwitch&scope=chat_login+user_read&force_verify=true) | 
 [Twitch Streamer Token](https://api.twitch.tv/kraken/oauth2/authorize?response_type=token&client_id=dve7ifeawf0xeegigqamnvqy9qqm2y&redirect_uri=https%3A%2F%2Fstreamlabs.com%2Fchatbot-auth%3Fservice%3Dtwitch&scope=chat_login+user_read+channel_check_subscription+channel_commercial+channel_editor+channel_subscriptions&force_verify=true) | 
-[Spotify Token](https://accounts.spotify.com/en/authorize?client_id=681722a742874f1295455870c2da4d36&response_type=code&redirect_uri=https:%2F%2Fstreamlabs.com%2Fchatbot-auth%3Fservice%3Dspotify&scope=user-read-private%20playlist-read-private&show_dialog=true) | 
 [Streamlabs Token](https://www.streamlabs.com/login?r=https%3A%2F%2Fwww.streamlabs.com%2Fapi%2Fv1.0%2Fauthorize%3Fclient_id%3DWwQemCiJEhLTnk9mBvPCGWIUvbYWNzpuEG6wxkHJ%26redirect_uri%3Dhttps%253A%252F%252Fstreamlabs.com%252Fchatbot-auth%253Fservice%253Dstreamlabs%26response_type%3Dcode%26scope%3Dlegacy.token%2520donations.read%2520alerts.write%2520credits.write%2520jar.write%2520socket.token%2520points.write%2520points.read%2520wheel.write) | 
 [Gamewisp Token](https://api.gamewisp.com/pub/v1/oauth/authorize?client_id=fa5358299f20fc03b66e7df1833235169341caf&redirect_uri=https://streamlabs.com/chatbot-auth?service=gamewisp&response_type=code&scope=read_only&state=SLCB) | 
