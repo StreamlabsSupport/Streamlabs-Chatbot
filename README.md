@@ -183,6 +183,24 @@ Click the :bust_in_silhouette: in the bottom left corner of the bot and go to `s
 Your twitch token for the streamer account expired. Please generate a new one
 `connections` :bust_in_silhouette: -> `twitch streamer` -> `disconnect` -> `generate token` -> `connect`
 
+## Captcha won't stop repeating during setup wizard
+This only happens during the first time you launch the bot so you just need to get it through the wizard once to be able to use the bot. 
+Generally speaking there are 3 ways to do this.
+
+1. Follow  the steps below to set up a shortcut to skip the setup wizard.  
+   - Make sure to close the Chatbot completely.  
+   - Right click on the Streamlabs Chatbot shortcut (if you don't have one please create one)  
+   - Select `properties`  
+   - Place your cursor at the very end of the `target` input box  
+   - Add a space right behind the "  
+   - Type in `Twitch` behind the space, if done correctly it should look like [this](http://prntscr.com/kgd3in)
+   - Hit `Apply` and try to launch the bot, the setup wizard should now be skipped.  
+   - In order to connect the bot please press the :bust_in_silhouette: in the bottom left corner and use the links below to generate tokens in your browser.
+
+2. Using a VPN, we only recommend trying this if you got experience with using a VPN.
+
+3. Please make sure you have tried #1 carefully and as last possible option visit the [discord](https://www.discord.gg/stream) and ask any support member for help.  
+
 ## Can't generate token  
 
 This is due to a connection issue between the bot and the site it needs to generate the token. 
