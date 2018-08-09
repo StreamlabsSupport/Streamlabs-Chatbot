@@ -194,7 +194,7 @@ Generally speaking there are 3 ways to do this.
    - Select `properties`  
    - Place your cursor at the very end of the `target` input box  
    - Add a space right behind the "  
-   - Type in `Twitch` behind the space, if done correctly it should look like [this](http://prntscr.com/kgd3in)
+   - Type in `twitch` behind the space, if done correctly it should look like [this](http://prntscr.com/kgnb4f)
    - Hit `Apply` and try to launch the bot, the setup wizard should now be skipped.  
    - In order to connect the bot please press the :bust_in_silhouette: in the bottom left corner and use the links below to generate tokens in your browser.
 
