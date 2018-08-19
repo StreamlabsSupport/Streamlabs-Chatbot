@@ -153,6 +153,7 @@ Minigames require you to enable currency before they can be used, this still app
 - Users competing in the Free for All need to have enough currency (same or above the cost)
 - Start delay needs to be at least 1 to give users the time to join in
 - If not enough people (lower than min entries) enters it get cancelled
+- Minimum entries must be at least 2, fights need at least 2 people
 </details>
   
 <details>
