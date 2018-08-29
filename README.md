@@ -208,8 +208,7 @@ Generally speaking there are 3 ways to do this.
 This is due to a connection issue between the bot and the site it needs to generate the token. 
 - Make sure there's an expcetion for the bot in your firewall
 - Make sure there's an exception for the bot in your antivirus/windows defender
-- Disabling ipv6 have resolved the issue for some users [Guide Here](https://support.streamlabs.com/hc/en-us/articles/115004232954-How-to-solve-IPv6-issues)
-- Use a VPN to get around recaptcha to generate tokens.  
+- Disabling ipv6 have resolved the issue for some users [Guide Here](https://support.streamlabs.com/hc/en-us/articles/115004232954-How-to-solve-IPv6-issues) 
 
 If nothing else work you can manually generate some tokens through these links  
 [Twitch Bot Token](https://api.twitch.tv/kraken/oauth2/authorize?response_type=token&client_id=dve7ifeawf0xeegigqamnvqy9qqm2y&redirect_uri=https%3A%2F%2Fstreamlabs.com%2Fchatbot-auth%3Fservice%3Dtwitch&scope=chat_login+user_read&force_verify=true) | 
