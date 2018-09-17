@@ -14,6 +14,7 @@ Documentation:
 - [Timers not posting](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#timers-not-posting)
 - [Songrequest by artist/name](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequest-by-artistname)
 - [Songrequests not responding in chat/ Songrequest stuck on track](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-not-responding-in-chat-songrequest-stuck-on-track)
+- [ Songrequests won't play/ does not currently recognize any of the video formats available]()
 - [SFX aren't playing](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#sfx-arent-playing)
 - [Bot crashes / doesn't launch](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-crashes--doesnt-launch)
 - [Missing tabs](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#missing-tabs)
@@ -74,8 +75,17 @@ If none of the options above explained your issue you can try resetting songqueu
 6. go into `settings` folder 
 7. delete `SongQueue.bin` and `songrequestsettings.bin` 
 8. start up the bot
-9. Enable songrequests
+9. enable songrequests
 
+
+## Songrequests won't play/ does not currently recognize any of the video formats available
+
+1. press the `?` in the bot's top right corner
+2. press `open install directory` 
+3. close the bot 
+4. go into `cache` folder
+5. delete all content from this folder
+6. start up the bot
 
 ## SFX aren't playing  
 > If preview works you can skip these
