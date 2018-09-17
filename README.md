@@ -14,7 +14,7 @@ Documentation:
 - [Timers not posting](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#timers-not-posting)
 - [Songrequest by artist/name](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequest-by-artistname)
 - [Songrequests not responding in chat/ Songrequest stuck on track](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-not-responding-in-chat-songrequest-stuck-on-track)
-- [ Songrequests won't play/ does not currently recognize any of the video formats available]()
+- [ Songrequests won't play/ does not currently recognize any of the video formats available](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-wont-play-does-not-currently-recognize-any-of-the-video-formats-available)  
 - [SFX aren't playing](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#sfx-arent-playing)
 - [Bot crashes / doesn't launch](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-crashes--doesnt-launch)
 - [Missing tabs](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#missing-tabs)
