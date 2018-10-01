@@ -129,7 +129,7 @@ When troubleshooting scripts your best help is the error view. You can find it i
 > Troubleshooting scripts
 - No module named `os` / `json`
   - Make sure [python 2.7.13](https://www.python.org/downloads/release/python-2713/)  x86 is installed. Don't use newer versions of python or x64
-  - Make sure the lib folder path found in `scripts tab` -> `settings` :gear: leads to the lib folder located inside the python folder that was created when installing python. 
+  - Make sure the lib folder path found in `scripts tab` -> `settings` :gear: leads to the lib folder located inside the python folder that was created when installing python. By default this would look like [THIS](https://i.imgur.com/5mtHoNL.png)  
 - Unexpected token `from` / `:`
   - Make sure you installed [python 2.7.13](https://www.python.org/downloads/release/python-2713/) x86 and NOT python 3.X
 
