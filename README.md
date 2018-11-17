@@ -101,7 +101,13 @@ If none of the options above explained your issue you can try resetting songqueu
 - Numbers of votes set is too high, the bot doesn't announce each vote
 
 ## Bot crashes / doesn't launch
-Most likely you don't have microsoft `visual c++ redistributables 2013` installed, note that both `x64` and `x86` needs to be installed. If you have both installed you can still visit [this link](https://www.microsoft.com/en-us/download/details.aspx?id=40784) to download and repair them both. If you need a step to step tutorial for this you can find that [here](https://support.streamlabs.com/hc/en-us/articles/115004407613-Repair-C-Redistributables-2013-x86-and-x64).  
+Streamlabs Chatbot requires some additional files (Visual C++ 2017 Redistributables) that might not be currently installed on your system. Please download and run **both** of these Microsoft Visual C++ 2017 redistributables. **Restart** you computer after installing this.
+
+- [Visual C++ 2017 Redistributable [64bit]](https://aka.ms/vs/15/release/vc_redist.x64.exe)
+- [Visual C++ 2017 Redistributable [32bit]](https://aka.ms/vs/15/release/vc_redist.x86.exe)
+
+**Both** the 32 bit and 64 bit versions should be installed, even if you have a 64 bit version of Windows
+
 
 > Running as admin  
 
