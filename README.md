@@ -23,7 +23,7 @@ Documentation:
 - [Bot size is huge/tiny on one or multiple monitors](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-size-is-hugetiny-on-one-or-multiple-monitors)
 - [Notifications aren't working](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#notifications-arent-working)
 - [Can't update game/tile through dashboard or command](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#cant-update-gametile-through-dashboard-or-command)
-- [Can't complete the captcha in the setup wizard](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#captcha-wont-stop-repeating-during-setup-wizard)
+- [Can't complete the captcha in the setup wizard](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#cant-complete-the-captcha-in-the-setup-wizard)
 - [Can't generate token](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#cant-generate-token)
 
 ## Messages show in console/chatbot but not stream chat   
