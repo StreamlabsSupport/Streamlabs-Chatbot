@@ -201,7 +201,7 @@ Click the :bust_in_silhouette: in the bottom left corner of the bot and go to `s
 Your twitch token for the streamer account expired. Please generate a new one
 `connections` :bust_in_silhouette: -> `twitch streamer` -> `disconnect` -> `generate token` -> `connect`
 
-## Captcha won't stop repeating during setup wizard
+## Can't complete the captcha in the setup wizard
 This only happens during the first time you launch the bot so you just need to get it through the wizard once to be able to use the bot. 
 Generally speaking there are 3 ways to do this.
 
