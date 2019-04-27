@@ -59,7 +59,7 @@ If the timer still doesn't work it is due to a faulty $parameter inside the time
 - To enable this feature go into the `Songrequest` tab in the bot then press the :gear: in the top right corner and change `mode` from `$id` to either of the two other options
 
 
-## Songrequests not responding in chat/ Songrequest stuck on track
+## Songrequests not responding in chat/Songrequest stuck on track
 Songrequests not responding could be a few possible reasons, please check the following reasons first.
 1. Songrequests are disabled in the songrequest tab (top left corner)
 2. Songrequests have a cost that's higher than the users current currencyamount
@@ -78,7 +78,7 @@ If none of the options above explained your issue you can try resetting songqueu
 9. enable songrequests
 
 
-## Songrequests won't play/ does not currently recognize any of the video formats available
+## Songrequests won't play/does not currently recognize any of the video formats available
 
 1. press the `?` in the bot's top right corner
 2. press `open install directory` 
@@ -100,7 +100,7 @@ If none of the options above explained your issue you can try resetting songqueu
 - Sound file commands are on global user cooldown. This setting is in `commands tab` -> `settings` :gear:. Restart the Chatbot to clear cooldowns
 - Numbers of votes set is too high, the bot doesn't announce each vote
 
-## Bot crashes / doesn't launch
+## Bot crashes/doesn't launch
 Streamlabs Chatbot requires some additional files (Visual C++ 2017 Redistributables) that might not be currently installed on your system. Please download and run **both** of these Microsoft Visual C++ 2017 redistributables. **Restart** you computer after installing this.
 
 - [Visual C++ 2017 Redistributable [64bit]](https://aka.ms/vs/15/release/vc_redist.x64.exe)
