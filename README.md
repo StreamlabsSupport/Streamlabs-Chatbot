@@ -13,18 +13,18 @@ Documentation:
 - [Bot can send messages but isn't responding to commands](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#bot-can-send-messages-but-isnt-responding-to-commands)
 - [Timers not posting](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#timers-not-posting)
 - [Songrequest by artist/name](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequest-by-artistname)
-- [Songrequests not responding in chat/ Songrequest stuck on track](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-not-responding-in-chat-songrequest-stuck-on-track)
-- [ Songrequests won't play/ does not currently recognize any of the video formats available](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-wont-play-does-not-currently-recognize-any-of-the-video-formats-available)  
+- [Songrequests not responding in chat/Songrequest stuck on track](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-not-responding-in-chat-songrequest-stuck-on-track)
+- [Songrequests won't play/does not currently recognize any of the video formats available](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-wont-play-does-not-currently-recognize-any-of-the-video-formats-available)  
 - [SFX aren't playing](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#sfx-arent-playing)
-- [Bot crashes / doesn't launch](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-crashes--doesnt-launch)
+- [Bot crashes/doesn't launch](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-crashes--doesnt-launch)
 - [Missing tabs](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#missing-tabs)
 - [Scripts not loading](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#scripts-not-loading)
 - [Minigames aren't working](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#minigames-arent-working)
 - [Bot size is huge/tiny on one or multiple monitors](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-size-is-hugetiny-on-one-or-multiple-monitors)
 - [Notifications aren't working](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#notifications-arent-working)
 - [Can't update game/tile through dashboard or command](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#cant-update-gametile-through-dashboard-or-command)
-- [Captcha won't stop repeating during setup wizard](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#captcha-wont-stop-repeating-during-setup-wizard)
-- [Can't generate token ](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#cant-generate-token)
+- [Can't complete the captcha in the setup wizard](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#cant-complete-the-captcha-in-the-setup-wizard)
+- [Can't generate token](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#cant-generate-token)
 
 ## Messages show in console/chatbot but not stream chat   
 You most likely connected the bot to the wrong channel.  
@@ -48,7 +48,7 @@ In order for timers to be working the following events must have occured
 
 - Stream must be live or timers won't post
 - The bot must be connected to Streamlabs
-- Bot must show `Stream: online`  at the top
+- Bot must show `Stream: Online` at the top
 - Minimum new chat lines must have been reached
 - Interval (min) must have been reached
 
@@ -59,7 +59,7 @@ If the timer still doesn't work it is due to a faulty $parameter inside the time
 - To enable this feature go into the `Songrequest` tab in the bot then press the :gear: in the top right corner and change `mode` from `$id` to either of the two other options
 
 
-## Songrequests not responding in chat/ Songrequest stuck on track
+## Songrequests not responding in chat/Songrequest stuck on track
 Songrequests not responding could be a few possible reasons, please check the following reasons first.
 1. Songrequests are disabled in the songrequest tab (top left corner)
 2. Songrequests have a cost that's higher than the users current currencyamount
@@ -78,7 +78,7 @@ If none of the options above explained your issue you can try resetting songqueu
 9. enable songrequests
 
 
-## Songrequests won't play/ does not currently recognize any of the video formats available
+## Songrequests won't play/does not currently recognize any of the video formats available
 
 1. press the `?` in the bot's top right corner
 2. press `open install directory` 
@@ -87,10 +87,10 @@ If none of the options above explained your issue you can try resetting songqueu
 5. delete all content from this folder
 6. start up the bot
 
-## SFX aren't playing  
+## SFX aren't playing
 > If preview works you can skip these
-- Wrong `audio output` is selected in `settings` :gear: -> `general`  
-- Wrong `audio engine` is selected in `settings` :gear: -> `general`. 99% of all users should use Wasapi 
+- Wrong `audio engine` is selected in `settings` :gear: -> `general`
+  - 99% of all users should use Wasapi
 - File/filepath doesn't exist
 - Soundfile format isn't supported (.mp3 only)
 - The Chatbot is muted in windows audio mixer
@@ -100,7 +100,7 @@ If none of the options above explained your issue you can try resetting songqueu
 - Sound file commands are on global user cooldown. This setting is in `commands tab` -> `settings` :gear:. Restart the Chatbot to clear cooldowns
 - Numbers of votes set is too high, the bot doesn't announce each vote
 
-## Bot crashes / doesn't launch
+## Bot crashes/doesn't launch
 Streamlabs Chatbot requires some additional files (Visual C++ 2017 Redistributables) that might not be currently installed on your system. Please download and run **both** of these Microsoft Visual C++ 2017 redistributables. **Restart** you computer after installing this.
 
 - [Visual C++ 2017 Redistributable [64bit]](https://aka.ms/vs/15/release/vc_redist.x64.exe)
@@ -201,7 +201,7 @@ Click the :bust_in_silhouette: in the bottom left corner of the bot and go to `s
 Your twitch token for the streamer account expired. Please generate a new one
 `connections` :bust_in_silhouette: -> `twitch streamer` -> `disconnect` -> `generate token` -> `connect`
 
-## Captcha won't stop repeating during setup wizard
+## Can't complete the captcha in the setup wizard
 This only happens during the first time you launch the bot so you just need to get it through the wizard once to be able to use the bot. 
 Generally speaking there are 3 ways to do this.
 
