@@ -10,20 +10,20 @@ Documentation:
 
 ## List of issues with known fixes
 - [Messages show in console/chatbot but not stream chat](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#messages-show-in-consolechatbot-but-not-stream-chat)
-- [Bot can send messages but isn't responding to commands](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#bot-can-send-messages-but-isnt-responding-to-commands)
-- [Timers not posting](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#timers-not-posting)
+- [Bot can send messages but isn't responding to commands](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-can-send-messages-but-isnt-responding-to-commands)
+- [Timers not posting](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#timers-not-posting)
 - [Songrequest by artist/name](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequest-by-artistname)
-- [Songrequests not responding in chat/Songrequest stuck on track](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-not-responding-in-chat-songrequest-stuck-on-track)
-- [Songrequests won't play/does not currently recognize any of the video formats available](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-wont-play-does-not-currently-recognize-any-of-the-video-formats-available)  
+- [Songrequests not responding in chat/Songrequest stuck on track](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-not-responding-in-chatsongrequest-stuck-on-track)
+- [Songrequests won't play/does not currently recognize any of the video formats available](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#songrequests-wont-playdoes-not-currently-recognize-any-of-the-video-formats-available)  
 - [SFX aren't playing](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#sfx-arent-playing)
-- [Bot crashes/doesn't launch](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-crashes--doesnt-launch)
+- [Bot crashes/doesn't launch](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-crashesdoesnt-launch)
 - [Missing tabs](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#missing-tabs)
 - [Scripts not loading](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#scripts-not-loading)
 - [Minigames aren't working](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#minigames-arent-working)
 - [Bot size is huge/tiny on one or multiple monitors](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-size-is-hugetiny-on-one-or-multiple-monitors)
 - [Notifications aren't working](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#notifications-arent-working)
-- [Can't update game/tile through dashboard or command](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#cant-update-gametile-through-dashboard-or-command)
-- [Can't complete the captcha in the setup wizard](https://github.com/StreamlabsSupport/Streamlabs-Chatbot/blob/master/README.md#cant-complete-the-captcha-in-the-setup-wizard)
+- [Can't update game/tile through dashboard or command](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#cant-update-gametile-through-dashboard-or-command)
+- [Can't complete the captcha in the setup wizard](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#cant-complete-the-captcha-in-the-setup-wizard)
 - [Can't generate token](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#cant-generate-token)
 
 ## Messages show in console/chatbot but not stream chat   
