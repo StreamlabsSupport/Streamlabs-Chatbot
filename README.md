@@ -6,7 +6,7 @@
 [Streamlabs Website](https://www.streamlabs.com)  
   
 Documentation:  
-[Twitch](https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf) | [YouTube](https://cdn.streamlabs.com/chatbot/Documentation_Youtube.pdf) | [Mixer](https://cdn.streamlabs.com/chatbot/Documentation_Mixer.pdf)  
+[Twitch](https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf) | [YouTube](https://cdn.streamlabs.com/chatbot/Documentation_Youtube.pdf)
 
 ## List of issues with known fixes
 - [Messages show in console/chatbot but not stream chat](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#messages-show-in-consolechatbot-but-not-stream-chat)
