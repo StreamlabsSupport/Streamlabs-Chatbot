@@ -29,7 +29,7 @@ Documentation:
 ## Messages show in console/chatbot but not stream chat   
 You most likely connected the bot to the wrong channel.  
 1. Go to connections :bust_in_silhouette: 
-2. Go into bot connection (mixer or twitch bot)  
+2. Go into bot connection (Only available for Twitch)
 3. Make sure Streamer Channel is the same as your actual stream name  
 
 ## Bot can send messages but isn't responding to commands
@@ -71,7 +71,7 @@ If none of the options above explained your issue you can try resetting songqueu
 2. press `open install directory` 
 3. close the bot 
 4. go into `services` folder 
-5. go into `twitch` folder (replace with youtube or mixer if you stream there)
+5. go into `twitch` folder (replace with youtube if you stream there)
 6. go into `settings` folder 
 7. delete `SongQueue.bin` and `songrequestsettings.bin` 
 8. start up the bot
@@ -119,9 +119,9 @@ Streamlabs Chatbot requires some additional files (Visual C++ 2017 Redistributab
 
 ## Missing tabs
 There are three tabs that can be hidden in the chatbot.
-- `Discord tab` is hidden for YouTube and Mixer since they do not support discord integration
+- `Discord tab` is hidden for YouTube since it doesn't support discord integration
 - `Scripts tab` is hidden until you connect streamer and bot account under `connections` to the streamer's channel
-- `Subscribers tab` is hidden for YouTube and Mixer
+- `Subscribers tab` is hidden for YouTube
 
 ## Scripts not loading
 There are no default scripts with the bot currently so in order for them to install they must have been imported manually. 
