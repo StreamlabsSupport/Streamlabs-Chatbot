@@ -1,8 +1,7 @@
 # Streamlabs-Chatbot
 [Dowload Chatbot](https://www.streamlabs.com/chatbot)  
 [Chatbot Discord](https://discordapp.com/invite/J4QMG5m)  
-[Changelog](https://streamlabs.com/changelog?filter=Streamlabs%20Chatbot)  
-[Suggest new Features](https://ideas.streamlabs.com)  
+[Suggest new Features](https://support.streamlabs.com/hc/en-us/requests/new)  
 [Streamlabs Website](https://www.streamlabs.com)  
   
 Documentation:  
@@ -21,6 +20,7 @@ Documentation:
 - [Scripts not loading](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#scripts-not-loading)
 - [Minigames aren't working](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#minigames-arent-working)
 - [Bot size is huge/tiny on one or multiple monitors](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#bot-size-is-hugetiny-on-one-or-multiple-monitors)
+- [Tab names are unreadable](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#tab-names-are-unreadable)
 - [Notifications aren't working](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#notifications-arent-working)
 - [Can't update game/tile through dashboard or command](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#cant-update-gametile-through-dashboard-or-command)
 - [Can't complete the captcha in the setup wizard](https://github.com/StreamlabsSupport/Streamlabs-Chatbot#cant-complete-the-captcha-in-the-setup-wizard)
@@ -41,7 +41,7 @@ Most likely one of the following settings was overlooked.
 - `Permission` & `Info` 
 
 YouTube only - last resort/possible reason.
-> Timestamps in the bot doesn't match the timestamps sent from youtube to the bot, so the bot doesn't recognize new messages to respond to. To ensure this isn't the issue simply enable "Set timee automatically" and make sure the correct Time zone is selected, how to find these settings is explained [here](https://www.computerhope.com/issues/ch000554.htm). 
+> Timestamps in the bot doesn't match the timestamps sent from youtube to the bot, so the bot doesn't recognize new messages to respond to. To ensure this isn't the issue simply enable "Set time automatically" and make sure the correct Time zone is selected, how to find these settings is explained [here](https://www.computerhope.com/issues/ch000554.htm). 
 
 ## Timers not posting
 In order for timers to be working the following events must have occured
@@ -186,6 +186,9 @@ If minigames still aren't working make sure that `settings` :gear: -> `usage` ->
 ## Bot size is huge/tiny on one or multiple monitors
 right click the chatbot shortcut -> go to the `compability tab` -> change `scaling option` to system "Override high DPI scaling behavior. Scaling performed by:" -> select `system`.
 If your shortcut is in the task bar you have to `right click` the icon -> `right click` where it says "Streamlabs Chatbot" and then you go to the compability tab. [Example](https://i.gyazo.com/e445bedb5389fee195c6137448866a43.gif)  
+
+## Tab names are unreadable
+This is an interference caused by Sonic Radar by ASUR or A-Volute. To resolve the issue, uninstall Sonic Radar and restart your PC
 
 
 ## Notifications aren't working
